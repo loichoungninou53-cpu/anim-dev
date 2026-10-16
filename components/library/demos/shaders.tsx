@@ -1,9 +1,9 @@
 "use client"
 
-// Code original ANIM-DEV : shader WebGL fragment (bruit animé). Repli si WebGL indisponible.
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react";
 
 const VERT = `attribute vec2 p; void main(){ gl_Position = vec4(p,0.0,1.0); }`
+
 const FRAG = `
 precision mediump float;
 uniform vec2 r; uniform float t;

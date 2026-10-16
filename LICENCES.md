@@ -23,3 +23,31 @@ Ses conditions indiquent que le code de chaque composant reste la propriété de
 - framer-motion (`motion` non installé séparément) : MIT.
 - Textes et chiffres : exemples, étiquetés « Exemple ».
 - Bibliothèques candidates non installées (licences vérifiées avec `npm view`, toutes MIT) : motion, @formkit/auto-animate, sonner, vaul, recharts, react-countup, embla-carousel-react, react-day-picker, cmdk, @radix-ui/react-accordion, three, lottie-react.
+
+## Composants repris ou installés (mise à jour)
+
+Chaque fichier de `components/library/demos/` garde en tête la mention de sa source.
+
+| Démo (fichier) | Origine | Licence | Mode |
+|---|---|---|---|
+| grid-background | Magic UI `animated-grid-pattern` (magicuidesign/magicui) | MIT | Code repris |
+| shimmer-button-mu | Magic UI `shimmer-button` | MIT | Code repris |
+| number-ticker-mu | Magic UI `number-ticker` | MIT | Code repris |
+| blur-fade-mu | Magic UI `blur-fade` | MIT | Code repris |
+| text-scramble | Motion Primitives `text-scramble` (ibelick/motion-primitives) | MIT | Code repris |
+| spinning-text | Motion Primitives `spinning-text` | MIT | Code repris (correction de type sur `ease`) |
+| spotlight-mp | Motion Primitives `spotlight` | MIT | Code repris |
+| dock-mp | Motion Primitives `dock` | MIT | Code repris (dépend de react-use-measure, MIT) |
+| tilt-mp | Motion Primitives `tilt` | MIT | Code repris |
+| magnetic-mp | Motion Primitives `magnetic` | MIT | Code repris |
+| sliding-number-mp | Motion Primitives `sliding-number` | MIT | Code repris |
+| sonner-toasts | Sonner (emilkowalski/sonner) | MIT | Dépendance npm `sonner` |
+| vaul-drawer | Vaul (emilkowalski/vaul) | MIT | Dépendance npm `vaul` |
+| animated-gradient | Code original ANIM-DEV | — | Aucune dépendance |
+
+Dépendances npm ajoutées : `motion` 14.x (MIT), `sonner` (MIT), `vaul` (MIT), `react-use-measure` 2.x (MIT).
+
+Non intégré :
+- React Bits (DavidHDev/react-bits) : licence « MIT + Commons Clause », qui restreint la vente d'un produit dont la valeur dérive du logiciel. À valider avant usage commercial.
+- Aceternity UI : licence propre, redistribution du code interdite. Le dépôt GitHub `aceternity/ui` cité n'existe pas.
+- « Apple design » d'Emil Kowalski : c'est une skill (guide de principes pour agents IA, MIT), pas une bibliothèque de composants. Ses principes sont repris en six points reformulés sur la page bibliothèque.

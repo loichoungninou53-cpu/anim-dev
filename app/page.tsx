@@ -113,7 +113,7 @@ export default function Home() {
               <p className="mt-4 max-w-xl text-sm leading-relaxed text-foreground/70">
                 Des composants animés à copier dans tes projets Next.js, Tailwind CSS et TypeScript. Chacun est montré en direct, avec son code.
               </p>
-              <Link href="/bibliotheque" className="mt-3 block text-sm font-bold text-primary underline">Voir la bibliothèque complète (49 catégories)</Link>
+              <Link href="/bibliotheque" className="mt-3 block text-sm font-bold text-primary underline">Voir la bibliothèque complète (63 catégories)</Link>
               <a href="#composants" className="mt-8">
                 <LiquidButton size="lg">Voir les composants</LiquidButton>
               </a>
@@ -223,15 +223,15 @@ export default function Home() {
       {/* Bibliothèque : entrée visible depuis l'accueil */}
       <section id="bibliotheque-accueil" className="scroll-mt-24 mx-auto max-w-5xl px-5 py-16">
         <p className="text-xs font-bold uppercase tracking-widest text-primary">Nouveau · bibliothèque</p>
-        <h2 className="mt-3 text-3xl font-black tracking-tight">49 catégories d'animations, une démo chacune</h2>
+        <h2 className="mt-3 text-3xl font-black tracking-tight">63 catégories d'animations, une démo copiable chacune</h2>
         <p className="mt-3 max-w-2xl text-foreground/70">Blocs marketing, composants UI, formulaires, données, navigation. Chaque démo a son code à copier.</p>
         <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
           {[
             ["Blocs marketing", "10"],
             ["Composants UI", "10"],
             ["Formulaires", "10"],
-            ["Données et retours", "10"],
-            ["Navigation", "9"],
+            ["Données et retours", "13"],
+            ["Navigation", "10"],
           ].map(([t, n]) => (
             <Link key={t} href="/bibliotheque" className="glass rounded-2xl p-4 transition-transform hover:-translate-y-1">
               <span className="block text-sm font-bold">{t}</span>
