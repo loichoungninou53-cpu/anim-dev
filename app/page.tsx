@@ -240,6 +240,7 @@ export default function Home() {
           ))}
         </div>
         <Link href="/bibliotheque" className="mt-6 inline-block rounded-full bg-primary px-6 py-3 text-sm font-bold text-white">Ouvrir la bibliothèque</Link>
+        <Link href="/video-defilement" className="mt-3 block text-sm font-bold text-primary underline">Voir la démo vidéo au défilement</Link>
       </section>
 
       {/* Animations originales ajoutées */}

@@ -1,6 +1,7 @@
 import { readFileSync } from "node:fs"
 import path from "node:path"
 import type { ComponentType } from "react"
+import Link from "next/link"
 import CopyCode from "@/components/library/copy-code"
 import MotionRoot from "@/components/motion-root"
 import { HeroesDemo } from "@/components/library/demos/heroes"
@@ -184,7 +185,7 @@ export default function Bibliotheque() {
       <p className="mt-3 max-w-2xl text-foreground/70">
         Clique sur « Copier le code » pour récupérer le fichier complet, puis colle-le dans <code>components/library/demos/</code>.
         Les dépendances sont indiquées dans chaque fichier (framer-motion, motion, sonner, vaul, react-use-measure : toutes MIT).
-        Les textes sont des exemples. Les démos reprises d'autres projets gardent leur mention d'origine.
+        Les textes sont des exemples. Les démos reprises d'autres projets gardent leur mention d'origine. <Link href="/video-defilement" className="font-bold text-primary underline">Démo vidéo au défilement</Link>.
       </p>
 
       <section aria-labelledby="principes" className="glass mt-8 rounded-2xl p-6">

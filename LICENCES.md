@@ -51,3 +51,10 @@ Non intégré :
 - React Bits (DavidHDev/react-bits) : licence « MIT + Commons Clause », qui restreint la vente d'un produit dont la valeur dérive du logiciel. À valider avant usage commercial.
 - Aceternity UI : licence propre, redistribution du code interdite. Le dépôt GitHub `aceternity/ui` cité n'existe pas.
 - « Apple design » d'Emil Kowalski : c'est une skill (guide de principes pour agents IA, MIT), pas une bibliothèque de composants. Ses principes sont repris en six points reformulés sur la page bibliothèque.
+
+## Vidéo au défilement (Systaliko UI)
+
+- `components/ui/animated-video-on-scroll.tsx` : « Animated Video on Scroll », Systaliko UI, par Youcef Benmessabih (YoucefBnm). Dépôt github.com/YoucefBnm/Systaliko-UI, licence MIT (© 2025 Youcef Benmessabih, vérifiée dans le fichier LICENSE du dépôt). Adaptations : chemins d'import, correction de la classe « relateive », textes en français.
+- Démo : `app/video-defilement/page.tsx`. Le texte d'exemple et le bouton sont propres à ANIM-DEV.
+- Vidéo `public/video/hero-scroll.mp4` : générée localement avec ffmpeg (source mandelbrot). Aucun droit tiers. À remplacer par ta propre vidéo.
+- La vidéo d'origine de la démo pointait vers le CDN de 21st.dev : elle n'est pas reprise.
